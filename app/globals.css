@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    /* 🟢 Use the direct CSS variable instead of the Tailwind utility class */
+    font-family: var(--font-poppins), sans-serif; 
+  }
+}
+
+:root {
+  --header-height: 5rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #faf8f3;
+  color: #1a2e22;
+}
+
+/* Scroll progress bar */
+#scroll-progress {
+  position: fixed;  
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #14532d, #facc15);
+  z-index: 60;
+  transition: width 0.1s ease-out;
+}
+
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f0ebe0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #14532d;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0f3d22;
+}
+
+/* Skeleton loading shimmer */
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    #f0ebe0 25%,
+    #e5dfd2 37%,
+    #f0ebe0 63%
+  );
+  background-size: 1000px 100%;
+  animation: shimmer 2s infinite linear;
+}
+
+/* Section reveal base state (used with Framer Motion / IntersectionObserver) */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+/* Glassmorphism utility */
+.glass-card {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Focus visibility for accessibility */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #facc15;
+  outline-offset: 2px;
+}
