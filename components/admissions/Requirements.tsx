@@ -17,7 +17,7 @@ export default function Requirements() {
         <Reveal direction="right">
           <div className="relative aspect-[4/3] w-full overflow-hidden rounded-3xl shadow-card">
             <Image
-              src="/other/almas-international-school-hyderabad-admission.webp?q=80&w=1200&auto=format&fit=crop"
+              src="/other/almas-international-school-hyderabad-admission.webp"
               alt="Parents and students visiting Almas International School campus"
               fill
               loading="lazy"

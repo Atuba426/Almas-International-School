@@ -27,7 +27,7 @@ export default function FacilitiesPage() {
       <PageHero
         title="Our Facilities"
         description="Purpose-built spaces and resources that support academic, physical, and personal growth for every student."
-        image="/gallery/almas-international-school-facilities.webp?q=80&w=1600&auto=format&fit=crop"
+        image="/gallery/almas-international-school-facilities.webp"
         imageAlt="Library facility at Almas International School"
         breadcrumbs={[{ label: "Facilities", href: "/facilities" }]}
       />

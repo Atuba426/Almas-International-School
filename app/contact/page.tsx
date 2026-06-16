@@ -30,7 +30,7 @@ export default function ContactPage() {
       <PageHero
         title="Contact Us"
         description="We're here to help. Reach out for admissions, boys hostel enquiries, campus tours, or any questions — serving families across Vikarabad, Hyderabad, and Telangana."
-        image="/other/almas-international-contactus.webp?q=80&w=1600&auto=format&fit=crop"
+        image="/other/almas-international-contactus.webp"
         imageAlt="Reception area at Almas International School, Vikarabad"
         breadcrumbs={[{ label: "Contact", href: "/contact" }]}
       />

@@ -51,7 +51,7 @@ export default function AdmissionsPage() {
       <PageHero
         title="Admissions — Vikarabad, Telangana"
         description="Join a community where academic excellence meets character building. Boys hostel seats and CBSE admissions are open for students from Vikarabad, Hyderabad, and across Telangana."
-        image="/other/almas-admission.webp?q=80&w=1600&auto=format&fit=crop"
+        image="/other/almas-admission.webp"
         imageAlt="Students and parents at Almas International School admissions office, Vikarabad"
         breadcrumbs={[{ label: "Admissions", href: "/admissions" }]}
       />

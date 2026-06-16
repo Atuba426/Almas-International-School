@@ -31,7 +31,7 @@ export default function GalleryPage() {
       <PageHero
         title="Gallery"
         description="A visual journey through life at Almas International School — from classrooms to playgrounds to celebrations."
-        image="/gallery/almas-international-school-teachers.webp?q=80&w=1600&auto=format&fit=crop"
+        image="/gallery/almas-international-school-teachers.webp"
         imageAlt="Students Studying at Almas International School"
         breadcrumbs={[{ label: "Gallery", href: "/gallery" }]}
       />

@@ -159,7 +159,7 @@ export const FACILITIES: FacilityItem[] = [
     description:
       "Comfortable dormitories, nutritious meals, and dedicated wardens ensuring a safe home away from home.",
     image:
-      "/images/almas-international-school-telengana-boys-hostel.webp?q=80&w=1200&auto=format&fit=crop",
+      "/images/almas-international-school-telengana-boys-hostel.webp",
   },
   {
     id: "library",
@@ -167,7 +167,7 @@ export const FACILITIES: FacilityItem[] = [
     description:
       "A vast collection of books, journals, and digital resources to fuel a lifelong love of reading and research.",
     image:
-      "/images/almas-inernational-school-telengana-library.webp?q=80&w=1200&auto=format&fit=crop",
+      "/images/almas-inernational-school-telengana-library.webp",
   },
   {
     id: "science-lab",
@@ -175,7 +175,7 @@ export const FACILITIES: FacilityItem[] = [
     description:
       "Fully-equipped Physics, Chemistry, and Biology labs for hands-on experiments and scientific discovery.",
     image:
-      "/images/almas-inernational-school-telengana-science-lab.webp?q=80&w=1200&auto=format&fit=crop",
+      "/images/almas-inernational-school-telengana-science-lab.webp",
   },
   {
     id: "computer-lab",
@@ -183,7 +183,7 @@ export const FACILITIES: FacilityItem[] = [
     description:
       "Modern computer labs with high-speed internet, preparing students for a digital-first future.",
     image:
-      "/images/almas-inernational-school-telengana-computer-lab.webp?q=80&w=1200&auto=format&fit=crop",
+      "/images/almas-inernational-school-telengana-computer-lab.webp",
   },
 ];
 
@@ -204,49 +204,49 @@ export const RESULT_STATS: StatItem[] = [
 export const GALLERY_ITEMS: GalleryItem[] = [
   {
     id: "g1",
-    src: "/images/almas-inernational-school-telengana-smart-classrooms-.webp?q=80&w=1400&auto=format&fit=crop",
+    src: "/images/almas-inernational-school-telengana-smart-classrooms-.webp",
     alt: "Students in classroom at Almas International School",
     label: "Smart Classrooms",
     size: "large",
   },
   {
     id: "g2",
-    src: "/images/almas-international-school-Hyderabad-maths-lab.webp?q=80&w=1000&auto=format&fit=crop",
+    src: "/images/almas-international-school-Hyderabad-maths-lab.webp",
     alt: "Math Lab with students Experimenting",
     label: "Math Lab",
     size: "medium",
   },
   {
     id: "g3",
-    src: "/images/almas-international-school-hyderabad-basketball-court.webp?q=80&w=1000&auto=format&fit=crop",
+    src: "/images/almas-international-school-hyderabad-basketball-court.webp",
     alt: "Students playing sports on campus",
     label: "Sports Day",
     size: "medium",
   },
   {
     id: "g4",
-    src: "/images/almas-inernational-school-telengana-dinning-hall.webp?q=80&w=1200&auto=format&fit=crop",
+    src: "/images/almas-inernational-school-telengana-dinning-hall.webp",
     alt: "Dining Hall for Students",
     label: "Dining Hall",
     size: "wide",
   },
   {
     id: "g5",
-    src: "/images/almas-inernational-school-telengana-cricket-ground.webp?q=80&w=1000&auto=format&fit=crop",
+    src: "/images/almas-inernational-school-telengana-cricket-ground.webp",
     alt: "Green campus surrounded by nature",
     label: "Campus Grounds",
     size: "tall",
   },
   {
     id: "g6",
-    src: "/images/almas-inernational-school-telengana-annual-day.webp?q=80&w=1000&auto=format&fit=crop",
+    src: "/images/almas-inernational-school-telengana-annual-day.webp",
     alt: "Graduation ceremony at the school",
     label: "Annual Day",
     size: "medium",
   },
   {
     id: "g7",
-    src: "/images/almas-inernational-school-telengana-swimming-pool.webp?q=80&w=1000&auto=format&fit=crop",
+    src: "/images/almas-inernational-school-telengana-swimming-pool.webp",
     alt: "Students collaborating on a project",
     label: "Group Activities",
     size: "medium",
@@ -370,21 +370,21 @@ export const FACULTY_MEMBERS: FacultyMember[] = [
     name: "MRS Benazeer ",
     role: "Principal",
     image:
-      "/gallery/principal-almas-international-school.webp?q=80&w=600&auto=format&fit=crop",
+      "/gallery/principal-almas-international-school.webp",
   },
   {
     id: "chairman",
     name: "Abdullah Azhar Qasmi",
     role: "Chairman",
     image:
-      "/gallery/almas-international-school-chaiman.webp?q=80&w=600&auto=format&fit=crop",
+      "/gallery/almas-international-school-chaiman.webp",
   },
   {
     id: "academic-head",
     name: "Abdul Rahman Athar Qasmi",
     role: "Director",
     image:
-      "/gallery/almas-international-school-director.webp?q=80&w=600&auto=format&fit=crop",
+      "/gallery/almas-international-school-director.webp",
   },
  
 ];
@@ -469,7 +469,7 @@ export const FACILITY_DETAILS: FacilityDetail[] = [
     description:
       "Our residential boys hostel in Vikarabad offers a safe, disciplined, and homely environment for boarding students from Vikarabad, Hyderabad, and across Telangana, with dedicated wardens, nutritious meals, and supervised study hours.",
     image:
-      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5",
       video: "https://res.cloudinary.com/dc8ay9usz/video/upload/f_auto,q_auto/v1781575981/boys-hostel-almas_khxjuh.mp4",
     points: [
       "24/7 warden supervision and security",
@@ -485,7 +485,7 @@ export const FACILITY_DETAILS: FacilityDetail[] = [
     description:
       "A spacious, well-stocked library housing thousands of books across fiction, reference, and academic categories, along with a quiet reading zone and digital catalog.",
     image:
-      "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1521587760476-6c12a4b040da",
     points: [
       "Extensive collection of books & journals",
       "Dedicated reading and research zones",
@@ -501,7 +501,7 @@ export const FACILITY_DETAILS: FacilityDetail[] = [
     description:
       "Separate, fully-equipped laboratories for Physics, Chemistry, and Biology give students hands-on experience that brings textbook concepts to life.",
     image:
-      "https://images.unsplash.com/photo-1532094349884-543bc11b234d?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1532094349884-543bc11b234d",
     points: [
       "Dedicated Physics, Chemistry & Biology labs",
       "Modern apparatus and safety equipment",
@@ -516,7 +516,7 @@ export const FACILITY_DETAILS: FacilityDetail[] = [
     description:
       "A modern computer lab equipped with updated systems and high-speed internet helps students build essential digital literacy and coding skills.",
     image:
-      "/gallery/almas-international-school-hyderabad-computer-lab-facility.webp?q=100&w=500&auto=format&fit=crop",
+      "/gallery/almas-international-school-hyderabad-computer-lab-facility.webp",
     points: [
       "Updated systems with high-speed internet",
       "Structured IT and coding curriculum",
@@ -532,7 +532,7 @@ export const FACILITY_DETAILS: FacilityDetail[] = [
     description:
       "Expansive outdoor grounds and dedicated areas for athletics, football, cricket, and indoor games keep students active and healthy.",
     image:
-      "/gallery/almas-volley-ball-court.webp?q=80&w=1200&auto=format&fit=crop",
+      "/gallery/almas-volley-ball-court.webp",
     points: [
       "Large outdoor playground and athletics track",
       "Football and cricket practice areas",
@@ -547,7 +547,7 @@ export const FACILITY_DETAILS: FacilityDetail[] = [
     description:
       "Set amid lush greenery, our campus offers a calm, pollution-free environment that promotes focus, creativity, and well-being.",
     image:
-      "/gallery/almas-capmus-facility.webp?q=100&w=1200&auto=format&fit=crop",
+      "/gallery/almas-capmus-facility.webp",
     points: [
       "Green, tree-lined campus grounds",
       "Clean air and peaceful learning environment",
@@ -656,7 +656,7 @@ export const GALLERY_CATEGORIES: GalleryCategory[] = [
 export const EXTENDED_GALLERY_ITEMS: ExtendedGalleryItem[] = [
   {
     id: "g1",
-    src: "/images/almas-international-school-smart-classroom-boarding.webp?q=80&w=1400&auto=format&fit=crop",
+    src: "/images/almas-international-school-smart-classroom-boarding.webp",
     alt: "Students in a smart classroom at Almas International School",
     label: "Smart Classrooms",
     category: "academics",
@@ -664,7 +664,7 @@ export const EXTENDED_GALLERY_ITEMS: ExtendedGalleryItem[] = [
   },
   {
     id: "g2",
-    src: "/gallery/almas-international-school-clean-library.webp?q=80&w=1000&auto=format&fit=crop",
+    src: "/gallery/almas-international-school-clean-library.webp",
     alt: "Students reading in the school library",
     label: "Library",
     category: "academics",
@@ -672,7 +672,7 @@ export const EXTENDED_GALLERY_ITEMS: ExtendedGalleryItem[] = [
   },
   {
     id: "g3",
-    src: "/gallery/almas-international-school-sports-day.webp?q=80&w=1000&auto=format&fit=crop",
+    src: "/gallery/almas-international-school-sports-day.webp",
     alt: "Students playing sports on the school grounds",
     label: "Sports Day",
     category: "sports",
@@ -680,7 +680,7 @@ export const EXTENDED_GALLERY_ITEMS: ExtendedGalleryItem[] = [
   },
   {
     id: "g4",
-    src: "/gallery/almas-international-school-activity-room.webp?q=80&w=1200&auto=format&fit=crop",
+    src: "/gallery/almas-international-school-activity-room.webp",
     alt: "Students conducting a science experiment in the lab",
     label: "Activity Room",
     category: "academics",
@@ -688,7 +688,7 @@ export const EXTENDED_GALLERY_ITEMS: ExtendedGalleryItem[] = [
   },
   {
     id: "g5",
-    src: "/gallery/almas-international-school-play-area.webp?q=80&w=1000&auto=format&fit=crop",
+    src: "/gallery/almas-international-school-play-area.webp",
     alt: "Green, nature-surrounded school campus grounds",
     label: "Play Area",
     category: "campus",
@@ -696,7 +696,7 @@ export const EXTENDED_GALLERY_ITEMS: ExtendedGalleryItem[] = [
   },
   {
     id: "g6",
-    src: "/gallery/almas-international-school-republic-day.webp?q=80&w=1000&auto=format&fit=crop",
+    src: "/gallery/almas-international-school-republic-day.webp",
     alt: "Students at the annual day graduation ceremony",
     label: "Annual Day",
     category: "events",
@@ -704,7 +704,7 @@ export const EXTENDED_GALLERY_ITEMS: ExtendedGalleryItem[] = [
   },
   {
     id: "g7",
-    src: "/gallery/almas-international-school-group-activity.webp?q=80&w=1000&auto=format&fit=crop",
+    src: "/gallery/almas-international-school-group-activity.webp",
     alt: "Students collaborating on a group project",
     label: "Group Activities",
     category: "academics",
@@ -712,7 +712,7 @@ export const EXTENDED_GALLERY_ITEMS: ExtendedGalleryItem[] = [
   },
   {
     id: "g8",
-    src: "/images/almas-international-school-telengana-boys-hostel.webp?q=80&w=1200&auto=format&fit=crop",
+    src: "/images/almas-international-school-telengana-boys-hostel.webp",
     alt: "Boys hostel dormitory and common area",
     label: "Hostel Dormitory",
     category: "hostel",
@@ -720,7 +720,7 @@ export const EXTENDED_GALLERY_ITEMS: ExtendedGalleryItem[] = [
   },
   {
     id: "g9",
-    src: "/gallery/almas-international-school-corridor.webp?q=80&w=1000&auto=format&fit=crop",
+    src: "/gallery/almas-international-school-corridor.webp",
     alt: "Students and teachers gathered on campus",
     label: "School Corridor",
     category: "campus",
@@ -728,7 +728,7 @@ export const EXTENDED_GALLERY_ITEMS: ExtendedGalleryItem[] = [
   },
   {
     id: "g10",
-    src: "/gallery/almas-international-school-tennis-court.webp?q=80&w=1000&auto=format&fit=crop",
+    src: "/gallery/almas-international-school-tennis-court.webp",
     alt: "Students participating in a Tennis match",
     label: "Tennis Practice",
     category: "sports",
@@ -736,7 +736,7 @@ export const EXTENDED_GALLERY_ITEMS: ExtendedGalleryItem[] = [
   },
   {
     id: "g11",
-    src: "/gallery/almas-international-school-cultural-program.webp?q=80&w=1000&auto=format&fit=crop",
+    src: "/gallery/almas-international-school-cultural-program.webp",
     alt: "Cultural event performance at the school auditorium",
     label: "Cultural Program",
     category: "events",
@@ -744,7 +744,7 @@ export const EXTENDED_GALLERY_ITEMS: ExtendedGalleryItem[] = [
   },
   {
     id: "g12",
-    src: "/gallery/almas-international-school-study-hour.webp?q=80&w=1200&auto=format&fit=crop",
+    src: "/gallery/almas-international-school-study-hour.webp",
     alt: "Hostel students studying together in the evening",
     label: "Evening Study Hour",
     category: "hostel",

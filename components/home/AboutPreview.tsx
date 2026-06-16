@@ -14,7 +14,7 @@ export default function AboutPreview() {
         <Reveal direction="right">
           <div className="relative aspect-[4/3] w-full overflow-hidden rounded-3xl shadow-card">
             <Image
-              src="/images/almas-international-school-achivements.webp?q=80&w=1200&auto=format&fit=crop"
+              src="/images/almas-international-school-achivements.webp"
               alt="Aerial view of the nature-surrounded Almas International School campus"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"

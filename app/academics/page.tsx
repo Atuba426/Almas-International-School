@@ -29,7 +29,7 @@ export default function AcademicsPage() {
       <PageHero
         title="Academics at Almas International"
         description="A structured CBSE curriculum from Pre-Primary to Secondary, designed to nurture knowledge, character, and excellence."
-        image="/gallery/almas-international-school-academics1.webp?q=80&w=1600&auto=format&fit=crop"
+        image="/gallery/almas-international-school-academics1.webp"
         imageAlt="Students engaged in classroom learning at Almas International School"
         breadcrumbs={[{ label: "Academics", href: "/academics" }]}
       />

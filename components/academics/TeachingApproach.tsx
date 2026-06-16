@@ -23,7 +23,7 @@ export default function TeachingApproach() {
         <Reveal direction="right">
           <div className="relative aspect-[4/3] w-full overflow-hidden rounded-3xl shadow-card">
             <Image
-              src="/gallery/almas-international-school-achivements.webp?q=80&w=1200&auto=format&fit=crop"
+              src="/gallery/almas-international-school-achivements.webp"
               alt="Teacher guiding students through a hands-on science activity"
               fill
               loading="lazy"

@@ -43,7 +43,7 @@ export default function OurStory() {
         <Reveal direction="left" delay={0.1}>
           <div className="relative aspect-[4/3] w-full overflow-hidden rounded-3xl shadow-card">
             <Image
-              src="/gallery/almas-international-school-student-learning.webp?q=80&w=1200&auto=format&fit=crop"
+              src="/gallery/almas-international-school-student-learning.webp"
               alt="Students and teachers at Almas International School campus"
               fill
               loading="lazy"

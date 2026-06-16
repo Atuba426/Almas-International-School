@@ -29,7 +29,7 @@ export default function AboutPage() {
       <PageHero
         title="About Almas International School"
         description="Where Islamic values and modern education come together to shape confident,compassionate leaders of tomorrow."
-        image="/gallery/almas-international-school-campus-sourrounded-greenery.webp?q=80&w=1600&auto=format&fit=crop"
+        image="/gallery/almas-international-school-campus-sourrounded-greenery.webp"
         imageAlt="Almas International School campus surrounded by greenery"
         breadcrumbs={[{ label: "About", href: "/about" }]}
       />
