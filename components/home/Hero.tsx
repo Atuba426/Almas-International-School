@@ -4,6 +4,7 @@ import { ArrowRight, Award, Phone } from "lucide-react";
 import Button from "@/components/ui/Button";
 import Reveal from "@/components/ui/Reveal";
 import HeroSlider from "@/components/home/hero-slider";
+import Link from "next/link";
 
 /**
  * Combined Hero Component
@@ -29,7 +30,7 @@ export default function Hero() {
         <Reveal direction="right">
           <div className="max-w-xl">
             {/* Premium Trust Badge Kicker */}
-            <span className="inline-flex items-center gap-2 rounded-full bg-primary-50 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-primary-700 mb-6">
+            <span className="inline-flex items-center gap-2 rounded-full bg-gold-500 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-primary-600 mb-6">
               <Award className="h-3.5 w-3.5" aria-hidden="true" />
               100% CBSE Results — 5 Consecutive Years
             </span>
@@ -48,45 +49,28 @@ export default function Hero() {
             </p>
 
             {/* Buttons Stack */}
-            <div className="mt-8 flex flex-wrap gap-4">
+            <div className="mt-8 flex flex-row flex-wrap items-center gap-3 w-full">
               <Button
                 href="/admissions"
                 size="lg"
-                icon={<ArrowRight className="h-5 w-5" aria-hidden="true" />}
+                icon={<ArrowRight className="h-4 w-4" aria-hidden="true" />}
+                className="flex-1 sm:flex-none justify-center whitespace-nowrap"
               >
                 Apply for Admission
               </Button>
+
               <Button
                 href="/contact"
                 variant="outline"
                 size="lg"
-                icon={<Phone className="h-5 w-5" aria-hidden="true" />}
+                icon={<Phone className="h-4 w-4" aria-hidden="true" />}
+                className="flex-1 sm:flex-none justify-center whitespace-nowrap"
               >
                 Contact Us
               </Button>
             </div>
 
-            {/* Quick Stats Grid */}
-            <div className="mt-10 flex flex-wrap gap-8">
-              <div>
-                <p className="font-heading text-3xl font-bold text-primary-700">
-                  500+
-                </p>
-                <p className="text-sm text-gray-500">Happy Students</p>
-              </div>
-              <div>
-                <p className="font-heading text-3xl font-bold text-primary-700">
-                  20+
-                </p>
-                <p className="text-sm text-gray-500">Expert Faculty</p>
-              </div>
-              <div>
-                <p className="font-heading text-3xl font-bold text-primary-700">
-                  100%
-                </p>
-                <p className="text-sm text-gray-500">CBSE Pass Rate</p>
-              </div>
-            </div>
+            
           </div>
         </Reveal>
 
