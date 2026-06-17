@@ -48,13 +48,18 @@ export default function AdmissionsPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
-      <PageHero
-        title="Admissions — Vikarabad, Telangana"
-        description="Join a community where academic excellence meets character building. Boys hostel seats and CBSE admissions are open for students from Vikarabad, Hyderabad, and across Telangana."
-        image="/other/almas-admission.webp"
-        imageAlt="Students and parents at Almas International School admissions office, Vikarabad"
-        breadcrumbs={[{ label: "Admissions", href: "/admissions" }]}
-      />
+      
+      {/* This utility class wrapper forces any child image to stay proportional */}
+      <div className="[&_img]:object-contain [&_img]:w-auto [&_img]:mx-auto">
+        <PageHero
+          title="Admissions — Vikarabad, Telangana"
+          description="Join a community where academic excellence meets character building..."
+          image="/other/admission-almas (2).webp"
+          imageAlt="Students and parents at Almas International School admissions office, Vikarabad"
+          breadcrumbs={[{ label: "Admissions", href: "/admissions" }]}
+        />
+      </div>
+
       <AdmissionProcess />
       <Requirements />
       <FAQSection />
