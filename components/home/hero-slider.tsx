@@ -50,7 +50,7 @@ export default function HeroSlider() {
               src={slide.image}
               alt="Almas School Campus"
               fill
-              sizes="(max-width: 768px) 100vw, 600px"
+              sizes="(max-width: 768px) 100vw, 638px"
               className="object-cover"
               priority={index === 0}
             />

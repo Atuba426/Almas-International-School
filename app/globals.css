@@ -13,9 +13,7 @@
   --header-height: 5rem;
 }
 
-html {
-  scroll-behavior: smooth;
-}
+
 
 body {
   background-color: #faf8f3;
@@ -30,7 +28,7 @@ body {
   height: 3px;
   background: linear-gradient(90deg, #14532d, #facc15);
   z-index: 60;
-  transition: width 0.1s ease-out;
+  /*transition: width 0.1s ease-out; */
 }
 
 
